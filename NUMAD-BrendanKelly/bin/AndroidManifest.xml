@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.brendan_kelly"
+    android:versionCode="6"
+    android:versionName="6.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_DATA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.neu.madcourse.brendan_kelly.MainActivity"
+            android:label="Main Menu" >
+            <intent-filter
+                android:icon="@drawable/icon"
+                android:label="NUMAD-BrendanKelly" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendan_kelly.TeamMembers"
+            android:label="@string/team" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendan_kelly.Error"
+            android:label="@string/team" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendan_kelly.DeviceID"
+            android:label="@string/team" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Sudoku.Sudoku"
+            android:label="@string/team" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Sudoku.Game"
+            android:label="@string/team" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Sudoku.Aboutlabel"
+            android:label="@string/about_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Sudoku.Keypad"
+            android:label="@string/keypad_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Sudoku.Music"
+            android:label="@string/music_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Sudoku.PuzzleView"
+            android:label="@string/new_game_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Sudoku.Prefs"
+            android:label="@string/settings_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Boggle.Boggle"
+            android:label="@string/boggle_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Boggle.Board"
+            android:label="@string/board_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Boggle.Game"
+            android:label="@string/game_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Boggle.Pause"
+            android:label="@string/pause_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Boggle.Acknowledgements"
+            android:label="@string/pause_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Boggle.Instructions"
+            android:label="@string/instructions_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Board"
+            android:label="@string/board_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Game"
+            android:label="@string/game_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Pause"
+            android:label="@string/pause_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Acknowledgements"
+            android:label="@string/pause_title" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Instructions"
+            android:label="@string/instructions_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.TwoPBoggle"
+            android:label="@string/twopboggle_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.FindOpp"
+            android:label="Find Opponent" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.CreateUserName"
+            android:label="New User" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.GameOver"
+            android:label="Game Over!" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.HighScore"
+            android:label="HighScores!" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.InProgress"
+            android:label="Game in progress" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Notifier"
+            android:label="Notification" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Poller"
+            android:label="@string/instructions_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.TwoPBoggle.Server"
+            android:label="@string/twopboggle_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Main"
+            android:label="@string/tp_main" >
+            <intent-filter
+                android:icon="@drawable/icon"
+                android:label="MAD-BrendanKelly" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Game"
+            android:label="@string/tp_game" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Highscores"
+            android:label="@string/tp_highscores" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Gameover"
+            android:label="Game Over" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Instructions"
+            android:label="@string/instructions_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Zephyr"
+            android:label="@string/instructions_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Tips"
+            android:label="@string/instructions_label" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendan_kelly.Description"
+            android:label="Description" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Acknowledgements"
+            android:label="Acknowledgements" >
+        </activity>
+
+        <receiver android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Game.BTBroadcastReceiver" >
+        </receiver>
+        <receiver android:name="edu.neu.madcourse.brendankelly.Tetris_Panic.TP_Game.BTBondReceiver" >
+        </receiver>
+        <receiver android:name="zephyr.android.HxMBT.BTReceiver" >
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+</manifest>
